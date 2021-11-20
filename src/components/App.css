@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+:root{
+  --starWarsYellow: #FFE81F;
+  /* --details-titles: rgb(158, 138, 138); */
+}
+
+.App {
+  width: 100vw;
+}
+
+h1 {
+  color: var(--starWarsYellow);
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+.flex-container {
+  display: flex;
+  background-color: inherit;
+  color: var(--starWarsYellow);
+  margin: 0px 20px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+.App-header {
+ /*background-color: black;
+  min-height: 100vh;
+  display: flex;
+   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white; */
+}

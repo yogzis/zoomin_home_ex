@@ -1,0 +1,62 @@
+.film-details-container {
+   display: flex;
+   flex-direction: column;
+   border: 2px solid var(--starWarsYellow);  
+   color: var(--starWarsYellow);
+   min-width: 75%;
+   border-radius: 20px;
+   transition: .4s;
+   justify-content: flex-start;
+   align-items: flex-start;  
+    padding-left: 3rem;
+}
+
+.title-episode-container{
+   display: flex;
+   width: 100%;
+   margin-top: 5rem;
+   margin-bottom: 3rem;
+   font-family: 'Oswald', sans-serif;
+}
+
+.film-details__title {
+   font-size: 35px;
+   margin-right: 30%;
+}
+
+.film-details__episode {
+   font-size: 35px;
+}
+
+.film-details {
+   width: 90%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+.film-details__release {
+   margin-bottom: .75rem;
+}
+
+.film-details__director {
+   margin-bottom: .75rem;
+
+}
+
+.film-details__producer {
+
+   margin-bottom: .75rem;
+}
+
+.film-details__crawl {
+   margin-bottom: .75rem;
+   line-height: 1.75rem;
+}
+
+.details-titles{
+   color: rgb(106, 112, 111);
+   font-weight: bold;
+   font-size: 1.5rem;
+   margin-right: 1rem;
+}
